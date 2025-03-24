@@ -1,6 +1,6 @@
 ﻿namespace CSharp_Solutions.DataStructures;
 
-internal class DequeImplementationUsingList
+internal class DequeImplementation
 {
     // This class implements a basic data structure that follows the Double-Ended Queue principle.
     // It allows adding and removing elements from both ends of the collection.

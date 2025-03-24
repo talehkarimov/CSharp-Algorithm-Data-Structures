@@ -1,6 +1,6 @@
 ﻿namespace CSharp_Solutions.DataStructures;
 
-internal class StackImplementationUsingList
+internal class StackImplementation
 {
     /*
     This class implements a basic data structure that follows the LIFO (Last-In-First-Out) principle.

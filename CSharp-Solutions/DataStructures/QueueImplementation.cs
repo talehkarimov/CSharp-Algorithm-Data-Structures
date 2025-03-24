@@ -1,6 +1,6 @@
 ﻿namespace CSharp_Solutions.DataStructures;
 
-internal class QueueImplementationUsingList
+internal class QueueImplementation
 {
     /*
     This class implements a basic data structure that follows the FIFO (First-In-First-Out) principle.
