@@ -1,6 +1,8 @@
-﻿namespace CSharp_Solutions.Solutions;
+﻿using CSharp_Solutions.DataStructures;
 
-public class RemoveNthNodeFromEndOfList
+namespace CSharp_Solutions.Solutions;
+
+internal class RemoveNthNodeFromEndOfList
 {
     // Singly-Linked-List
     public ListNode RemoveNthFromEnd(ListNode head, int n)
@@ -26,17 +28,6 @@ public class RemoveNthNodeFromEndOfList
 
         x.next = x.next.next;
         return head;
-    }
-
-    public class ListNode
-    {
-        public int val;
-        public ListNode? next;
-        public ListNode(int val = 0, ListNode? next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
     }
 }
 
