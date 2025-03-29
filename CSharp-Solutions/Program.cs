@@ -1,9 +1,17 @@
-﻿using CSharp_Solutions.Solutions;
+﻿using CSharp_Solutions.DataStructures;
+using CSharp_Solutions.Solutions;
 
-var solution = new FindDuplicateNumber();
+var tree = new BstTree<int>();
+var invert = new InvertBinaryTree();
 
-var arr = new int[] { 1, 3, 4, 2, 2 };
+tree.Insert(4);
+tree.Insert(2);
+tree.Insert(7);
+tree.Insert(1);
+tree.Insert(3);
+tree.Insert(6);
+tree.Insert(9);
 
+var test = invert.InvertTree(tree.Root);
+Console.WriteLine(test);
 
-
-Console.WriteLine(solution.FloydSolution(arr));
